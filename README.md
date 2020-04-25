@@ -102,9 +102,11 @@ Developing a library application which is used for searching and renting books u
   </li>
   <li>
     So according to the user role the view of the application changes. 
+    <ul>
     <li>
       If the User role is student, they can perform actions like viewing the list of books available in the library, look for the location of a perticular book in the library, track the list of the books he/she have already borrowed and checking their due date.
       </li>
+      </ul>
     </li>
   <li>
     </li>
