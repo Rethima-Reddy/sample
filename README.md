@@ -70,7 +70,7 @@ Developing a library application which is used for searching and renting books u
   <ul>
     <li>UserID: s536974@nwmissouri.edu</li>
     <li>Password: 123456</li>
-    <ul>
+    </ul>
   </ul>
 </p>
 
@@ -82,14 +82,42 @@ Developing a library application which is used for searching and renting books u
   <li> https://www.youtube.com/watch?v=tLVz5wmNyrw</li>
 </p>
 
+
+<h2> Sequential flow and detailed description of our project</h2>
+<ul>
+  Our application Northwest Library allows the users to know the place of book they are searching in B.D Owens Lirary. By using our applictaion the user can find the book they require without wasting their time in searching book. They can also know weather the book is available in the library or not using this app. The user can also borrow a book if required from the application. They can also view the due date to return the book which they have borrowed earlier.
+  
+  <ul>
+  <li>
+    Once the user open the application they view the list of books that are available in our library. Even before login, they can see all the list of books and their description by clicking on the book they want.
+  </li>
+  <li>
+    By reading the description the user can know wheather they want that book or not. If they want that book they can perform any of the two options persent. One is to view the location of the book in the library and the other is to borrow that book from the library. 
+    </li>
+  <li>
+    To do any of the described actions the login is required. If they logged in already and cliked on view the location then the user can see the section and rack ID of that coresponding book. If they clicked on borrow book the due date to return the book will be shown and an alert box is diaplayed to confirm the borrow action. Once they confirmed it, the book along with used ID will be added to the borrow list in database. If they have not logged in before, the application will redirect them to login activity.
+  </li>
+  <li>
+    If a user is new to the application, one should register with the personal information and then login using mail id and password.<b>(OR)</b> If already registered but had forgot his/her password, they can request for resetting the password and a email will be sent to the user with the instructions for resetting the password.Initially every user is added with role as student whic can be later updated as Department admin is the admin wants them to be.
+  </li>
+  <li>
+    So according to the user role the view of the application changes. 
+    <li>
+      If the User role is student, they can perform actions like viewing the list of books available in the library, look for the location of a perticular book in the library, track the list of the books he/she have already borrowed and checking their due date.
+      </li>
+    </li>
+  <li>
+    </li>
+
+
+
 <h2>Layouts of our project:</h2>
    <ul>
- <h3>Splash Screeen:</h3>
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/SplashScreen.png" />
-  <p>
-The splash screen will be the launch page. This screen acts as a splash screen. A splash screen is usually used when a game or program is launching. In this app, a splash screen is used to launch the app and show it like a welcome screen.   
-  </p>
-     
+      <h3>Splash Screeen:</h3>
+      <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/SplashScreen.png" />
+      <p>
+          This is the welcome page to our application. The splash screen will be the launch page of our application. This screen acts as           a loading page before launching the application. 
+      </p>
   </ul>
  <ul>
    <h3>Login Screen:</h3>
