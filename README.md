@@ -53,18 +53,24 @@ Developing a library application which is used for searching and renting books u
 <p>
   <ul>
     <h3>Login as admin:</h3>
-    <li>UserID: s537157@nwmissouri.edu</li>
-    <li>Password: 123456</li>
+      <ul>
+      <li>UserID: s537157@nwmissouri.edu</li>
+      <li>Password: 123456</li>
+    </ul>
   </ul>
   <ul>
     <h3>Login as Department admin:</h3>
+  <ul>
     <li>UserID: s537240@nwmissouri.edu</li>
     <li>Password: 123456</li>
+    </ul>
   </ul>
   <ul>
     <h3>Login as Student:</h3>
+  <ul>
     <li>UserID: s536974@nwmissouri.edu</li>
     <li>Password: 123456</li>
+    <ul>
   </ul>
 </p>
 
