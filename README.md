@@ -1,4 +1,4 @@
-# android-library-app
+# BearCat's Library 
 Developing a library application which is used for searching and renting books using mobile application.
 
 <h1>App Name:Northwest Library</h1>
@@ -13,71 +13,67 @@ Developing a library application which is used for searching and renting books u
 
 <h2> Introduction to our Project:</h2>
 <p>
-  Our B. D. Owens Library is maintaining website for the book tracking. To know where a specific book is located in library, we need to go to library and use only library desktops. By our project we will create an android application in which we will keep track of all the books in the library. Admin will add the book name, details and the location where it is kept and the users will search the book by book name or description and can see in which place the book is located. The users/Student can also view the books they already borrowed and the due dates of them are also shown.
-  </p>
+  Our B. D. Owens Library is maintaining website for the book tracking. To know where a specific book is located in library, we need to   use that website only. By our project we will create an android application in which we will keep track of all the books in the         library. Admin will add the book name, details and the location where it is kept and the users will search the book by book name or     description and can see in which place the book is located. The users/Student can also view the books from the library and also know     the details like due date and extra charges for late return from our appliation.
+</p>
   
   <h2>Specifications/Support Version:</h2>
-<p>We are using android API version of pixel 3a XL API 28. The size of the layout is 1080*2160 with a density of 400. 
-The complete details of the device we have used in our project is:
-Device Name: Pixel 3a XL API 28
-Android API: 9.0 API 28
-Size: 1080*2160 </p>
-Database: Firebase
-<h2>APK file</h2>
-https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
+    <p>
+      We are using android API version of pixel 3a XL API 28. The size of the layout is 1080*2160 with a density of 400. 
+      The complete details of the device we have used in our project is:
+      <li>Device Name: Pixel 3a XL API 28</li>
+      <li>Android API: 9.0 API 28</li>
+      <li>Size: 1080*2160 </li>
+    </p>
+
+
+
+  <h2>Database:</h2>
+   <p> Firebase</p>
+   
+   
+   
+  <h2>APK file</h2>
+  https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
     
   <h2>Installation Steps</h2>
-  <p>Installation of this app is much more easier with just few steps The User can download the apk file of the LibraryApplication App. By clicking on the apk file, It install's the app in your android mobile. Once the App gets installed the user can click on the App icon to open it. Later on, the user can use the application as per their requirements.
-</p>
-
+  <p>
+    Installation of this app is much more easier with just few steps. The User can download the apk file of the LibraryApplication App.     By  clicking on the apk file, It install's the app in your android mobile. Once the App gets installed the user can click on the App     icon to  open it. Later on, the user can use the application as per their requirements.
+  </p>
   
   <h2>Requirements:</h2>
   <p>
-  <ul>
-Mobile with the Android operating System.
-We need the above API properties to run the app and to have good user interface.
-Minimum 1 GB RAM.
-Minimum 8 GB internal storage
-To run this app we need internet.
-</ul>
-</p>
+    <li>Mobile with the Android operating System.  </li>
+    <li>We need the above API properties to run the app and to have good user interface.  </li>
+    <li>Minimum 1 GB RAM.  </li>
+    <li>Minimum 8 GB internal storage  </li>
+    <li>To run this app we need internet.  </li>
+  </p>
 
 <h2>User Credentials for testing: </h2>
-  <p>
+<p>
   <ul>
     Login as admin:
-UserID: s537157@nwmissouri.edu
-Password: 123456
-</ul>
+    <li>UserID: s537157@nwmissouri.edu</li>
+    <li>Password: 123456</li>
+  </ul>
   <ul>
-    Login as Department Admin:
-UserID: s537240@nwmissouri.edu
-Password: 123456
-</ul>
+    Login as Department admin:
+    <li>UserID: s537240@nwmissouri.edu</li>
+    <li>Password: 123456</li>
+  </ul>
   <ul>
     Login as Student:
-UserID: s536974@nwmissouri.edu
-Password: 123456
-</ul>
+    <li>UserID: s536974@nwmissouri.edu</li>
+    <li>Password: 123456</li>
+  </ul>
 </p>
+
 
 <h2>Sources used for our Project:</h2>
-
 <p>
+  For Completion of our project we have used many websites. Few of them are listed below.
   <li> https://stackoverflow.com/questions/15748558/android-developer-documentation-download</li>
   <li> https://www.youtube.com/watch?v=tLVz5wmNyrw</li>
-</p>
-
-<h2>Test Credentials:</h2>
-<p>
-<li>
- Username for Admin: s537157@nwmissouri.edu
- password:123456
- </li>
- <li>
- Username for Department Admin: s537240@nwmissouri.edu
- password:123456
- </li>
 </p>
 
 <h2>Layouts of our project:</h2>
