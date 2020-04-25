@@ -52,17 +52,17 @@ Developing a library application which is used for searching and renting books u
 <h2>User Credentials for testing: </h2>
 <p>
   <ul>
-    Login as admin:
+    <h3>Login as admin:</h3>
     <li>UserID: s537157@nwmissouri.edu</li>
     <li>Password: 123456</li>
   </ul>
   <ul>
-    Login as Department admin:
+    <h3>Login as Department admin:</h3>
     <li>UserID: s537240@nwmissouri.edu</li>
     <li>Password: 123456</li>
   </ul>
   <ul>
-    Login as Student:
+    <h3>Login as Student:</h3>
     <li>UserID: s536974@nwmissouri.edu</li>
     <li>Password: 123456</li>
   </ul>
