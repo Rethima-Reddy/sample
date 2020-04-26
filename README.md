@@ -157,24 +157,20 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 <p>
   This is the welcome page to our application. The splash screen will be the launch page of our application. This screen acts as a loading page before launching the application. 
 </p>
-<center>
-<img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/SplashScreen.png" width="230" height="400"/>
-</center>
+<img class="aligncenter" src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/SplashScreen.png" width="230" height="400"/>
+
 <h3>List all books:</h3>
 <p>
   This is the main activity of our application. This screen consists of list of all available books in the library. The screen appears as below.
 </p>
-<center>
-<img src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/listBooks.png" width="230" height="400" />
-</center>
+<img class="aligncenter" src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/listBooks.png" width="230" height="400" />
+
 
 <h3>Basic Navigation bar:</h3>
 <p>
   This is the navigation bar to any user who didn't log in. Shown are the list of functionalities a user can do before logging into the application.
 </p>
-<center>
-<img src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_BasicNavBar.png" width="230" height="400"/>
-</center>
+<img class="aligncenter" src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_BasicNavBar.png" width="230" height="400"/>
 
 
 
@@ -265,5 +261,11 @@ This privilege is only given to admins. Every time a new book imported, the book
   
   </ul>
   
+<!-- css -->
+<style>
+.aligncenter {
+    text-align: center;
+    }
+</style>
 
  
