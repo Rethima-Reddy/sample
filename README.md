@@ -392,6 +392,14 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AddedDptAdmin.png" width="230" height="400"/>
 <p>
 
+<h3>User Profile Screen of Department Admin/Librarian after updating the role:</h3>
+<p>
+  Once a student's role is updated to Department Admin/Librarian this will be reflected in the user profile screen of that person. Before the role was <b>student</b> which is appearing in fig: now the role is updated to department admin as shown below.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AddedDptAdmin.png" width="230" height="400"/>
+<p>
+
 <h3>List all Department Admins/Librarians:</h3>
 <p>
   We can see the list of the Department Admins/Librarians who are employeed at present in this screen as shown below.
@@ -405,7 +413,7 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
   From the above screen, we can see a remove button corresponding to each person in the list. If we click on any of the persons remove button, an alert box appears and ask for the conformation of the remove action to be performed as shown below.
 </p>
 <p align="center">
-  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_DptAdminList.png" width="230" height="400"/>
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_deleteDptAdminAlertBox.png" width="230" height="400"/>
 <p>
 
 
