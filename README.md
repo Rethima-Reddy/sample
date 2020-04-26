@@ -19,66 +19,65 @@ An android application which is used for searching and renting books from a libr
   Our B. D. Owens Library is maintaining website for the book tracking. To know where a specific book is located in library, we need to   use that website only. By our project we will create an android application in which we will keep track of all the books in the         library. Admin will add the book name, details and the location where it is kept and the users will search the book by book name or     description and can see in which place the book is located. The users/Student can also view the books from the library and also know     the details like due date and extra charges for late return from our appliation.
 </p>
   
-  <h2>Specifications/Support Version:</h2>
-    <p>
-      We are using android API version of pixel 3a XL API 28. The size of the layout is 1080*2160 with a density of 400. 
-      The complete details of the device we have used in our project is:
-      <li>Device Name: Pixel 3a XL API 28</li>
-      <li>Android API: 9.0 API 28</li>
-      <li>Size: 1080*2160 </li>
-    </p>
-
-
-
-  <h2>Database:</h2>
-   <p> Firebase </p>
-   <p> 
-      We are using a Persistent database named Firebase Fire Store. By using the fire 
-      Store in our application, we can store the data in cloud and sync it across all the devices when ever required. We are storing information regarding user details, books information and borrowed books details in our database. By using this we structure the data depending on our requirements. We can query and fetch data easily as per requirements. We can laso dynamically get the data whenever we require. The database will grow dynamically depending on the information stored. We are also using firebase authentication for validating and logging the user into the application. 
-    </p>
-   
-   
-   
-  <h2>APK file</h2>
-  https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
-    
-    
-    
-  <h2>Installation Steps</h2>
+<h2>Specifications/Support Version:</h2>
   <p>
-    Installation of this app is much more easier with just few steps. The User can download the apk file of the LibraryApplication App. By  clicking on the apk file, It install's the app in your android mobile. Once the App gets installed the user can click on the App icon to  open it. Later on, the user can use the application as per their requirements.
-  </p>
-  
-  
-  
-  <h2>Requirements:</h2>
-  <p>
-    <li>Mobile with the Android operating System.  </li>
-    <li>Minimum 1 GB RAM.  </li>
-    <li>Minimum 8 GB internal storage  </li>
-    <li>To run this app we need internet.  </li>
+    We are using android API version of pixel 3a XL API 28. The size of the layout is 1080*2160 with a density of 400. The complete details of the device we have used in our project is:
+    <li>Device Name: Pixel 3a XL API 28</li>
+    <li>Android API: 9.0 API 28</li>
+    <li>Size: 1080*2160 </li>
   </p>
 
 
 
-  <h2>User Credentials for testing: </h2>
-  <p>
-    <h3>Login as Admin:</h3>
-    <ul>
-      <li><b>UserID:</b> s537157@nwmissouri.edu</li>
-      <li><b>Password:</b> 123456</li>
-    </ul>
-    <h3>Login as Librarian/Department admin:</h3>
-    <ul>
-      <li><b>UserID:</b> s537240@nwmissouri.edu</li>
-      <li><b>Password:</b> 123456</li>
-    </ul>
-    <h3>Login as Student:</h3>
-    <ul>
-      <li><b>UserID:</b> s536974@nwmissouri.edu</li>
-      <li><b>Password:</b> 123456</li>
-    </ul>
+<h2>Database:</h2>
+  <p> Firebase </p>
+  <p> 
+    We are using a Persistent database named Firebase Fire Store. By using the fire 
+    Store in our application, we can store the data in cloud and sync it across all the devices when ever required. We are storing information regarding user details, books information and borrowed books details in our database. By using this we structure the data depending on our requirements. We can query and fetch data easily as per requirements. We can laso dynamically get the data whenever we require. The database will grow dynamically depending on the information stored. We are also using firebase authentication for validating and logging the user into the application. 
   </p>
+   
+   
+   
+<h2>APK file</h2>
+https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
+    
+    
+    
+<h2>Installation Steps</h2>
+<p>
+  Installation of this app is much more easier with just few steps. The User can download the apk file of the LibraryApplication App. By  clicking on the apk file, It install's the app in your android mobile. Once the App gets installed the user can click on the App icon to  open it. Later on, the user can use the application as per their requirements.
+</p>
+  
+  
+  
+<h2>Requirements:</h2>
+<p>
+  <li>Mobile with the Android operating System.  </li>
+  <li>Minimum 1 GB RAM.  </li>
+  <li>Minimum 8 GB internal storage  </li>
+  <li>To run this app we need internet.  </li>
+</p>
+
+
+
+<h2>User Credentials for testing: </h2>
+<p>
+  <h3>Login as Admin:</h3>
+  <ul>
+    <li><b>UserID:</b> s537157@nwmissouri.edu</li>
+    <li><b>Password:</b> 123456</li>
+  </ul>
+  <h3>Login as Librarian/Department admin:</h3>
+  <ul>
+    <li><b>UserID:</b> s537240@nwmissouri.edu</li>
+    <li><b>Password:</b> 123456</li>
+  </ul>
+  <h3>Login as Student:</h3>
+  <ul>
+    <li><b>UserID:</b> s536974@nwmissouri.edu</li>
+    <li><b>Password:</b> 123456</li>
+  </ul>
+</p>
 
 
 <h2>Sources used for our Project:</h2>
