@@ -96,7 +96,7 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <ul>
   <li>
-    Once the user open the application even before login, they can view the list of books that are available in our library. They can view detailed description of a book by clicking on a particular book they want.
+    Once the user open the application even before login, they can view the <b>list of books</b> that are available in our library. They can view detailed <b>description of a book</b> by clicking on a particular book they want.
   </li>
   <li>
     By reading the description the user can know wheather they want that book or not. If they want that book they can perform any of the two options persent. They are as follows: 
@@ -116,32 +116,35 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
         Clicked on <b>view the location,</b> the user can see the location of book by section and rack ID of that corresponding book. 
       </li>
       <li>
-        Clicked on <b>borrow book,</b> the due date to return the book will be shown and an alert box is displayed to confirm the borrow action. Once user confirmed it, the book ID along with used ID will be added to the borrow list in database.
+        Clicked on <b>borrow book,</b> the due date to return the book will be shown and an alert box is displayed to <b>confirm the borrow action</b>. Once user confirmed it, the book ID along with used ID will be added to the <b>borrowed books list</b> in database.
       </li>
     </ul>
-    If they have not logged in before, the application will redirect them to login activity.
+    If they have not logged in before, the application will redirect them to <b>login activity</b>.
   </li>
   <li>
-    If a user is new to the application, they should register with the personal information and then login using mail id and password. <b>(OR)</b> If already registered but had forgot his/her password, they can request for resetting the password and a email will be sent to the user with the instructions for resetting the password. Initially every user is added with role as student which can later be updated as Librarian/Department admin if the admin wants them to be.
+    If a user is new to the application, they should <b>register</b> with the personal information and then login using mail id and password. <b>(OR)</b> If already registered but had <b>forgot his/her password,</b> they can request for <b>resetting the password</b> and a <b>email</b> will be sent to the user with the instructions for resetting the password. Initially every user is added with role as student which can later be updated as Librarian/Department admin if the admin wants them to be.
   </li>
   <li>
     So according to the user role the view of the application changes. 
     <ul>
       <li>
-      If the User role is <b>Student</b>, they can perform actions like viewing the list of books available in the library, look for the location of a particular book in the library, track the list of the books he/she have already borrowed and check their due dates to return.
+      If the User role is <b>Student</b>, they can perform actions like <b>viewing the list of books</b> available in the library, <b>look for the location of a particular book</b> in the library, track the list of the <b>books he/she have already borrowed</b> and check their due dates to return.
      </li>
     </ul>
     <ul>
       <li>
-         If the User role is <b>Librarian/Depatment Admin</b>, they can perform all the actions done by the user. A part from that, if new books are bought by libary, those book details and the storage location can be added into database by the him/her. They can also view the list of books borrowed by students along with their corresponding #919 number and due date to for every book.
+         If the User role is <b>Librarian/Depatment Admin</b>, they can perform all the actions done by the user. A part from that, if new books are bought by libary, those book details and the storage location can be <b>added(add book) into database</b> by the him/her. They can also view the <b>list of books borrowed by students</b> along with their corresponding #919 number and due date to for every book.
       </li>
     </ul>
     <ul>
       <li>
-         If the User role is <b>Admin</b>, he/she can perform all the functionalities done by student and department admin. A part from that, they can also make a student as librarian/department admin. This privilage is given only to admin. Admin can also view the list of librarians/department admins present. He/She can remove a person's role from librarian/department admin and make them a normal user that is, Student if they want.
+         If the User role is <b>Admin</b>, he/she can perform all the functionalities done by student and department admin. A part from that, they can also make a student as librarian/department admin by <b>adding them to Department Admin list</b>. This privilage is given only to admin. Admin can also view the <b>list of librarians/department admins</b> present. He/She can remove a person's role from librarian/department admin and make them a normal user that is, Student if they want.
       </li>
     </ul>
     </li>
+  <li>
+    Apart from all the mentioned functionalities, all users who login are provided with some other basic features like view the <b>user profile, change password, help screen and Contact Us</b> page with all the related data in it.
+  </li>
 </ul>
 
 
