@@ -51,27 +51,21 @@ Developing a library application which is used for searching and renting books u
 
 <h2>User Credentials for testing: </h2>
 <p>
+  <li><h3>Login as admin:</h3></li>
   <ul>
-    <li><h3>Login as admin:</h3></li>
-      <ul>
-      <li>UserID: s537157@nwmissouri.edu</li>
-      <li>Password: 123456</li>
-    </ul>
+    <li>UserID: s537157@nwmissouri.edu</li>
+    <li>Password: 123456</li>
   </ul>
-  <ul>
-    <li><h3>Login as Department admin:</h3></li>
+  <li><h3>Login as Department admin:</h3></li>
   <ul>
     <li>UserID: s537240@nwmissouri.edu</li>
     <li>Password: 123456</li>
-    </ul>
   </ul>
-  <ul>
-    <li><h3>Login as Student:</h3></li>
+  <li><h3>Login as Student:</h3></li>
   <ul>
     <li>UserID: s536974@nwmissouri.edu</li>
     <li>Password: 123456</li>
-    </ul>
-  </ul>
+   </ul>
 </p>
 
 
@@ -84,10 +78,11 @@ Developing a library application which is used for searching and renting books u
 
 
 <h2> Sequential flow and detailed description of our project</h2>
+  <ul>
   Our application Northwest Library allows the users to know the place of book they are searching in B.D Owens Lirary. By using our applictaion the user can find the book they require without wasting their time in searching book. They can also know weather the book is available in the library or not using this app. The user can also borrow a book if required from the application. They can also view the due date to return the book which they have borrowed earlier.
-  
 
-  <li>nvlkad
+
+  <li>
     Once the user open the application they view the list of books that are available in our library. Even before login, they can see all the list of books and their description by clicking on the book they want.
   </li>
   <li>
@@ -110,7 +105,7 @@ Developing a library application which is used for searching and renting books u
   <li>
     </li>
 
-
+  </ul>
 
 <h2>Layouts of our project:</h2>
    <ul>
