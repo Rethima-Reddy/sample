@@ -86,31 +86,48 @@ An android application which is used for searching and renting books from a libr
 
 <h2> Sequential flow and detailed description of our project</h2>
 <p>
-  Our application Northwest Library allows the users to know the place of book they are searching in B.D Owens Lirary. By using our applictaion the user can find the book they require without wasting their time in searching book. They can also know weather the book is available in the library or not using this app. The user can also borrow a book if required from the application. They can also view the due date to return the book which they have borrowed earlier.
+  Our application <b>Northwest Library</b> allows the users to know the location of book they are searching in B.D Owens Lirary. By using our applictaion the user can find the book they require without wasting their time in searching book manually. They can also know weather the book is available in the library or not using our app. They can borrow a book if required and also view the due date to return the book which they have borrowed earlier.
 </p>
 <ul>
   <li>
-    Once the user open the application they view the list of books that are available in our library. Even before login, they can see all the list of books and their description by clicking on the book they want.
+    Once the user open the application even before login, they can view the list of books that are available in our library. They can view detailed description of a book by clicking on a particular book they want.
   </li>
   <li>
-    By reading the description the user can know wheather they want that book or not. If they want that book they can perform any of the two options persent. One is to view the location of the book in the library and the other is to borrow that book from the library. 
-    </li>
-  <li>
-    To do any of the described actions the login is required. If they logged in already and cliked on view the location then the user can see the section and rack ID of that coresponding book. If they clicked on borrow book the due date to return the book will be shown and an alert box is diaplayed to confirm the borrow action. Once they confirmed it, the book along with used ID will be added to the borrow list in database. If they have not logged in before, the application will redirect them to login activity.
+    By reading the description the user can know wheather they want that book or not. If they want that book they can perform any of the two options persent. They are as follows: 
+    <ul>
+      <li>
+        One is to view the location of the book in the library and 
+      </li>
+      <li>
+        The other is to borrow that book from the library. 
+      </li>
+    </ul>
   </li>
   <li>
-    If a user is new to the application, one should register with the personal information and then login using mail id and password. <b>(OR)</b> If already registered but had forgot his/her password, they can request for resetting the password and a email will be sent to the user with the instructions for resetting the password.Initially every user is added with role as student whic can be later updated as Department admin is the admin wants them to be.
+    To do any of the described actions the login to the application is required. If the user has already logged in and 
+    <ul>
+      <li>
+        Clicked on <b>view the location,</b> the user can see the location of book by section and rack ID of that corresponding book. 
+      </li>
+      <li>
+        Clicked on <b>borrow book,</b> the due date to return the book will be shown and an alert box is displayed to confirm the borrow action. Once user confirmed it, the book ID along with used ID will be added to the borrow list in database.
+      </li>
+    </ul>
+    If they have not logged in before, the application will redirect them to login activity.
+  </li>
+  <li>
+    If a user is new to the application, they should register with the personal information and then login using mail id and password. <b>(OR)</b> If already registered but had forgot his/her password, they can request for resetting the password and a email will be sent to the user with the instructions for resetting the password.Initially every user is added with role as student which can later be updated as Librarian/Department admin is the admin wants them to be.
   </li>
   <li>
     So according to the user role the view of the application changes. 
     <ul>
       <li>
-      If the User role is <b>Student</b>, they can perform actions like viewing the list of books available in the library, look for the location of a perticular book in the library, track the list of the books he/she have already borrowed and check their due dates to return.
+      If the User role is <b>Student</b>, they can perform actions like viewing the list of books available in the library, look for the location of a particular book in the library, track the list of the books he/she have already borrowed and check their due dates to return.
      </li>
     </ul>
     <ul>
       <li>
-         If the User role is <b>Librarian/Depatment Admin</b>, they can perform all the actions done by the user. A part from that, if a new books bought by libary, those book details and the storage location can be added by the department admin. They can also view the list of books borrowed by students alond with their #919 number and due date to for every book.
+         If the User role is <b>Librarian/Depatment Admin</b>, they can perform all the actions done by the user. A part from that, if new books bought by libary, those book details and the storage location can be added by the department admin. They can also view the list of books borrowed by students alond with their #919 number and due date to for every book.
       </li>
     </ul>
     <ul>
