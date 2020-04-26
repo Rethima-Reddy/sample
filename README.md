@@ -62,7 +62,7 @@ Developing a library application which is used for searching and renting books u
     <li><b>UserID:</b> s537157@nwmissouri.edu</li>
     <li><b>Password:</b> 123456</li>
   </ul>
-  <h3>Login as Department admin:</h3>
+  <h3>Login as Librarian/Department admin:</h3>
   <ul>
     <li><b>UserID:</b> s537240@nwmissouri.edu</li>
     <li><b>Password:</b> 123456</li>
@@ -77,8 +77,10 @@ Developing a library application which is used for searching and renting books u
 
 <h2>Sources used for our Project:</h2>
 <p>
-  For Completion of our project we have used many websites. Few of them are listed below.
-  <li> https://stackoverflow.com/questions/15748558/android-developer-documentation-download</li>
+  For Completion of our project we have used many websites. Few of them are listed below.  
+  <li> https://developer.android.com/</li>
+  <li> https://stackoverflow.com/ </li>
+  <li> https://www.youtube.com/watch?v=fGcMLu1GJEc </li>
   <li> https://www.youtube.com/watch?v=tLVz5wmNyrw</li>
 </p>
 
@@ -86,7 +88,7 @@ Developing a library application which is used for searching and renting books u
 <h2> Sequential flow and detailed description of our project</h2>
 <p>
   Our application Northwest Library allows the users to know the place of book they are searching in B.D Owens Lirary. By using our applictaion the user can find the book they require without wasting their time in searching book. They can also know weather the book is available in the library or not using this app. The user can also borrow a book if required from the application. They can also view the due date to return the book which they have borrowed earlier.
-  </p>
+</p>
 <ul>
   <li>
     Once the user open the application they view the list of books that are available in our library. Even before login, they can see all the list of books and their description by clicking on the book they want.
@@ -109,12 +111,12 @@ Developing a library application which is used for searching and renting books u
     </ul>
     <ul>
       <li>
-         If the User role is <b>Librarian/Depatment Admin</b>, they can perform all the actions done by the user. A part from that, if a new books bought by libary, those book details and the storage location can be added by the department admin. This department admin acts as librarian as a whole.
+         If the User role is <b>Librarian/Depatment Admin</b>, they can perform all the actions done by the user. A part from that, if a new books bought by libary, those book details and the storage location can be added by the department admin. They can also view the list of books borrowed by students alond with their #919 number and due date to for every book.
       </li>
     </ul>
     <ul>
       <li>
-         If the User role is <b>Admin</b>, he/she can perform all the functionalities done by student and department admin. A part from that, he/she can make a student as department admin. This privilage is given only to admin. Admin can also view the list of department admins present. He/She can also remove a person's role from librarian and make them a normal user that is, Student if they want.
+         If the User role is <b>Admin</b>, he/she can perform all the functionalities done by student and department admin. A part from that, they can also make a student as librarian/department admin. This privilage is given only to admin. Admin can view the list of librarians/department admins present. He/She can remove a person's role from librarian/department admin and make them a normal user that is, Student if they want.
       </li>
     </ul>
     </li>
