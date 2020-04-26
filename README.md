@@ -84,11 +84,10 @@ Developing a library application which is used for searching and renting books u
 
 
 <h2> Sequential flow and detailed description of our project</h2>
-<ul>
   Our application Northwest Library allows the users to know the place of book they are searching in B.D Owens Lirary. By using our applictaion the user can find the book they require without wasting their time in searching book. They can also know weather the book is available in the library or not using this app. The user can also borrow a book if required from the application. They can also view the due date to return the book which they have borrowed earlier.
   
-  <ul>
-  <li>
+
+  <li>nvlkad
     Once the user open the application they view the list of books that are available in our library. Even before login, they can see all the list of books and their description by clicking on the book they want.
   </li>
   <li>
