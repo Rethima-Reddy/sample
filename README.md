@@ -35,10 +35,14 @@ Developing a library application which is used for searching and renting books u
   <h2>APK file</h2>
   https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
     
+    
+    
   <h2>Installation Steps</h2>
   <p>
     Installation of this app is much more easier with just few steps. The User can download the apk file of the LibraryApplication App.     By  clicking on the apk file, It install's the app in your android mobile. Once the App gets installed the user can click on the App     icon to  open it. Later on, the user can use the application as per their requirements.
   </p>
+  
+  
   
   <h2>Requirements:</h2>
   <p>
@@ -49,22 +53,24 @@ Developing a library application which is used for searching and renting books u
     <li>To run this app we need internet.  </li>
   </p>
 
+
+
 <h2>User Credentials for testing: </h2>
 <p>
-  <li><h3>Login as admin:</h3></li>
+  <h3>Login as admin:</h3>
   <ul>
-    <li>UserID: s537157@nwmissouri.edu</li>
-    <li>Password: 123456</li>
+    <li><b>UserID:</b> s537157@nwmissouri.edu</li>
+    <li><b>Password:</b> 123456</li>
   </ul>
-  <li><h3>Login as Department admin:</h3></li>
+  <h3>Login as Department admin:</h3>
   <ul>
-    <li>UserID: s537240@nwmissouri.edu</li>
-    <li>Password: 123456</li>
+    <li><b>UserID:</b> s537240@nwmissouri.edu</li>
+    <li><b>Password:</b> 123456</li>
   </ul>
-  <li><h3>Login as Student:</h3></li>
+  <h3>Login as Student:</h3>
   <ul>
-    <li>UserID: s536974@nwmissouri.edu</li>
-    <li>Password: 123456</li>
+    <li><b>UserID:</b> s536974@nwmissouri.edu</li>
+    <li><b>Password:</b> 123456</li>
    </ul>
 </p>
 
@@ -78,10 +84,10 @@ Developing a library application which is used for searching and renting books u
 
 
 <h2> Sequential flow and detailed description of our project</h2>
-  <ul>
+<p>
   Our application Northwest Library allows the users to know the place of book they are searching in B.D Owens Lirary. By using our applictaion the user can find the book they require without wasting their time in searching book. They can also know weather the book is available in the library or not using this app. The user can also borrow a book if required from the application. They can also view the due date to return the book which they have borrowed earlier.
-
-
+  </p>
+<ul>
   <li>
     Once the user open the application they view the list of books that are available in our library. Even before login, they can see all the list of books and their description by clicking on the book they want.
   </li>
@@ -97,15 +103,35 @@ Developing a library application which is used for searching and renting books u
   <li>
     So according to the user role the view of the application changes. 
     <ul>
-    <li>
-      If the User role is student, they can perform actions like viewing the list of books available in the library, look for the location of a perticular book in the library, track the list of the books he/she have already borrowed and checking their due date.
+      <li>
+      If the User role is <b>student</b>, they can perform actions like viewing the list of books available in the library, look for the location of a perticular book in the library, track the list of the books he/she have already borrowed and checking their due date.
+     </li>
+    </ul>
+    <ul>
+      <li>
+         If the User role is <b>Depatment Admin</b>, 
       </li>
-      </ul>
+    </ul>
+    <ul>
+      <li>
+         If the User role is <b>Admin</b>, 
+      </li>
+    </ul>
     </li>
-  <li>
-    </li>
-
+  
+  <li>Next Pint</li>
+  
+  
   </ul>
+
+
+
+
+
+
+
+
+
 
 <h2>Layouts of our project:</h2>
    <ul>
