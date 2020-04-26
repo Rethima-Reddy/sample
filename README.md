@@ -33,7 +33,7 @@ An android application which is used for searching and renting books from a libr
   <p> Firebase </p>
   <p> 
     We are using a Persistent database named Firebase Fire Store. By using the fire 
-    Store in our application, we can store the data in cloud and sync it across all the devices when ever required. We are storing information regarding user details, books information and borrowed books details in our database. By using this we structure the data depending on our requirements. We can query and fetch data easily as per requirements. We can laso dynamically get the data whenever we require. The database will grow dynamically depending on the information stored. We are also using firebase authentication for validating and logging the user into the application. 
+    Store in our application, we can store the data in cloud and sync it across all the devices when ever required. We are storing information regarding user details, books information and borrowed books details in our database. By using this we structure the data depending on our requirements. We can query and fetch data easily as per requirements. We can also dynamically get the data whenever we require. The database will grow dynamically depending on the information stored. We are also using firebase authentication for validating and logging the user into the application. 
   </p>
    
    
@@ -133,12 +133,12 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
     </ul>
     <ul>
       <li>
-         If the User role is <b>Librarian/Depatment Admin</b>, they can perform all the actions done by the user. A part from that, if new books are bought by libary, those book details and the storage location can be <b>added(add book) into database</b> by the him/her. They can also view the <b>list of books borrowed by students</b> along with their corresponding #919 number and due date to for every book.
+         If the User role is <b>Librarian/Depatment Admin</b>, they can perform all the actions done by the user. A part from that, if new books are bought by libary, those book details and the storage location can be <b>added(book) into database</b> by the him/her. They can also view the <b>list of books borrowed by students</b> along with their corresponding #919 number and due date to for every book.
       </li>
     </ul>
     <ul>
       <li>
-         If the User role is <b>Admin</b>, he/she can perform all the functionalities done by student and department admin. A part from that, they can also make a student as librarian/department admin by <b>adding them to Department Admin list</b>. This privilage is given only to admin. Admin can also view the <b>list of librarians/department admins</b> present. He/She can remove a person's role from librarian/department admin and make them a normal user that is, Student if they want.
+         If the User role is <b>Admin</b>, he/she can perform all the functionalities done by student and department admin. A part from that, they can also make a student as librarian/department admin by <b>adding them to Department Admin list</b>. This privilage is given only to admin. Admin can also view the <b>list of librarians/department admins</b> present. He/She can <b>remove</b> a person's role from librarian/department admin and make them a normal user that is, Student if they want.
       </li>
     </ul>
     </li>
@@ -146,10 +146,6 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
     Apart from all the mentioned functionalities, all users who login are provided with some other basic features like view the <b>user profile, change password, help screen and Contact Us</b> page with all the related data in it.
   </li>
 </ul>
-
-
-
-
 
 
 
