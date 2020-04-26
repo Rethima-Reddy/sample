@@ -57,7 +57,7 @@ Developing a library application which is used for searching and renting books u
 
 <h2>User Credentials for testing: </h2>
 <p>
-  <h3>Login as admin:</h3>
+  <h3>Login as Admin:</h3>
   <ul>
     <li><b>UserID:</b> s537157@nwmissouri.edu</li>
     <li><b>Password:</b> 123456</li>
@@ -98,28 +98,28 @@ Developing a library application which is used for searching and renting books u
     To do any of the described actions the login is required. If they logged in already and cliked on view the location then the user can see the section and rack ID of that coresponding book. If they clicked on borrow book the due date to return the book will be shown and an alert box is diaplayed to confirm the borrow action. Once they confirmed it, the book along with used ID will be added to the borrow list in database. If they have not logged in before, the application will redirect them to login activity.
   </li>
   <li>
-    If a user is new to the application, one should register with the personal information and then login using mail id and password.<b>(OR)</b> If already registered but had forgot his/her password, they can request for resetting the password and a email will be sent to the user with the instructions for resetting the password.Initially every user is added with role as student whic can be later updated as Department admin is the admin wants them to be.
+    If a user is new to the application, one should register with the personal information and then login using mail id and password. <b>(OR)</b> If already registered but had forgot his/her password, they can request for resetting the password and a email will be sent to the user with the instructions for resetting the password.Initially every user is added with role as student whic can be later updated as Department admin is the admin wants them to be.
   </li>
   <li>
     So according to the user role the view of the application changes. 
     <ul>
       <li>
-      If the User role is <b>student</b>, they can perform actions like viewing the list of books available in the library, look for the location of a perticular book in the library, track the list of the books he/she have already borrowed and checking their due date.
+      If the User role is <b>Student</b>, they can perform actions like viewing the list of books available in the library, look for the location of a perticular book in the library, track the list of the books he/she have already borrowed and check their due dates to return.
      </li>
     </ul>
     <ul>
       <li>
-         If the User role is <b>Depatment Admin</b>, 
+         If the User role is <b>Librarian/Depatment Admin</b>, they can perform all the actions done by the user. A part from that, if a new books bought by libary, those book details and the storage location can be added by the department admin. This department admin acts as librarian as a whole.
       </li>
     </ul>
     <ul>
       <li>
-         If the User role is <b>Admin</b>, 
+         If the User role is <b>Admin</b>, he/she can perform all the functionalities done by student and department admin. A part from that, he/she can make a student as department admin. This privilage is given only to admin. Admin can also view the list of department admins present. He/She can also remove a person's role from librarian and make them a normal user that is, Student if they want.
       </li>
     </ul>
     </li>
   
-  <li>Next Pint</li>
+  <li>Next Point</li>
   
   
   </ul>
@@ -226,4 +226,3 @@ This privilege is only given to admins. Every time a new book imported, the book
   
 
  
-
