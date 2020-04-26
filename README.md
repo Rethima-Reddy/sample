@@ -163,7 +163,7 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 <p>
   This is the main activity of our application. This screen consists of list of all available books in the library. The screen appears as below.
 </p>
-<img src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_ListAllBooks.png" />
+<img src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/listBooks.png" />
 
 <h3>Basic Navigation bar:</h3>
 <p>
