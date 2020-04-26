@@ -5,7 +5,7 @@ An android application which is used for searching and renting books from a libr
 <h3>Northwest Library</h3>
 
 <h2>App Logo<h2>
-  <img src="https://github.com/Rethima-Reddy/sample/blob/master/Images/appLogo.jpeg" />
+  <img align="center" src="https://github.com/Rethima-Reddy/sample/blob/master/Images/appLogo.jpeg" />
   
 <h2>Team Members:</h2>
  <li> Anil Bomma</li>
@@ -31,7 +31,11 @@ An android application which is used for searching and renting books from a libr
 
 
   <h2>Database:</h2>
-   <p> Firebase</p>
+   <p> Firebase </p>
+   <p> 
+      We are using a Persistent database named Firebase Fire Store. By using the fire 
+      Store in our application, we can store the data in cloud and sync it across all the devices when ever required. We are storing information regarding user details, books information and borrowed books details in our database. By using this we structure the data depending on our requirements. We can query and fetch data easily as per requirements. We can laso dynamically get the data whenever we require. The database will grow dynamically depending on the information stored. We are also using firebase authentication for validating and logging the user into the application. 
+    </p>
    
    
    
@@ -42,7 +46,7 @@ An android application which is used for searching and renting books from a libr
     
   <h2>Installation Steps</h2>
   <p>
-    Installation of this app is much more easier with just few steps. The User can download the apk file of the LibraryApplication App.     By  clicking on the apk file, It install's the app in your android mobile. Once the App gets installed the user can click on the App     icon to  open it. Later on, the user can use the application as per their requirements.
+    Installation of this app is much more easier with just few steps. The User can download the apk file of the LibraryApplication App. By  clicking on the apk file, It install's the app in your android mobile. Once the App gets installed the user can click on the App icon to  open it. Later on, the user can use the application as per their requirements.
   </p>
   
   
@@ -57,24 +61,24 @@ An android application which is used for searching and renting books from a libr
 
 
 
-<h2>User Credentials for testing: </h2>
-<p>
-  <h3>Login as Admin:</h3>
-  <ul>
-    <li><b>UserID:</b> s537157@nwmissouri.edu</li>
-    <li><b>Password:</b> 123456</li>
-  </ul>
-  <h3>Login as Librarian/Department admin:</h3>
-  <ul>
-    <li><b>UserID:</b> s537240@nwmissouri.edu</li>
-    <li><b>Password:</b> 123456</li>
-  </ul>
-  <h3>Login as Student:</h3>
-  <ul>
-    <li><b>UserID:</b> s536974@nwmissouri.edu</li>
-    <li><b>Password:</b> 123456</li>
-   </ul>
-</p>
+  <h2>User Credentials for testing: </h2>
+  <p>
+    <h3>Login as Admin:</h3>
+    <ul>
+      <li><b>UserID:</b> s537157@nwmissouri.edu</li>
+      <li><b>Password:</b> 123456</li>
+    </ul>
+    <h3>Login as Librarian/Department admin:</h3>
+    <ul>
+      <li><b>UserID:</b> s537240@nwmissouri.edu</li>
+      <li><b>Password:</b> 123456</li>
+    </ul>
+    <h3>Login as Student:</h3>
+    <ul>
+      <li><b>UserID:</b> s536974@nwmissouri.edu</li>
+      <li><b>Password:</b> 123456</li>
+    </ul>
+  </p>
 
 
 <h2>Sources used for our Project:</h2>
@@ -99,10 +103,10 @@ An android application which is used for searching and renting books from a libr
     By reading the description the user can know wheather they want that book or not. If they want that book they can perform any of the two options persent. They are as follows: 
     <ul>
       <li>
-        One is to view the location of the book in the library and 
+        One is to <b>view the location</b> of the book in the library and 
       </li>
       <li>
-        The other is to borrow that book from the library. 
+        The other is to <b>borrow that book</b> from the library. 
       </li>
     </ul>
   </li>
@@ -119,7 +123,7 @@ An android application which is used for searching and renting books from a libr
     If they have not logged in before, the application will redirect them to login activity.
   </li>
   <li>
-    If a user is new to the application, they should register with the personal information and then login using mail id and password. <b>(OR)</b> If already registered but had forgot his/her password, they can request for resetting the password and a email will be sent to the user with the instructions for resetting the password.Initially every user is added with role as student which can later be updated as Librarian/Department admin is the admin wants them to be.
+    If a user is new to the application, they should register with the personal information and then login using mail id and password. <b>(OR)</b> If already registered but had forgot his/her password, they can request for resetting the password and a email will be sent to the user with the instructions for resetting the password. Initially every user is added with role as student which can later be updated as Librarian/Department admin if the admin wants them to be.
   </li>
   <li>
     So according to the user role the view of the application changes. 
@@ -130,20 +134,16 @@ An android application which is used for searching and renting books from a libr
     </ul>
     <ul>
       <li>
-         If the User role is <b>Librarian/Depatment Admin</b>, they can perform all the actions done by the user. A part from that, if new books bought by libary, those book details and the storage location can be added by the department admin. They can also view the list of books borrowed by students alond with their #919 number and due date to for every book.
+         If the User role is <b>Librarian/Depatment Admin</b>, they can perform all the actions done by the user. A part from that, if new books are bought by libary, those book details and the storage location can be added into database by the him/her. They can also view the list of books borrowed by students along with their corresponding #919 number and due date to for every book.
       </li>
     </ul>
     <ul>
       <li>
-         If the User role is <b>Admin</b>, he/she can perform all the functionalities done by student and department admin. A part from that, they can also make a student as librarian/department admin. This privilage is given only to admin. Admin can view the list of librarians/department admins present. He/She can remove a person's role from librarian/department admin and make them a normal user that is, Student if they want.
+         If the User role is <b>Admin</b>, he/she can perform all the functionalities done by student and department admin. A part from that, they can also make a student as librarian/department admin. This privilage is given only to admin. Admin can also view the list of librarians/department admins present. He/She can remove a person's role from librarian/department admin and make them a normal user that is, Student if they want.
       </li>
     </ul>
     </li>
-  
-  <li>Next Point</li>
-  
-  
-  </ul>
+</ul>
 
 
 
@@ -155,20 +155,21 @@ An android application which is used for searching and renting books from a libr
 
 
 <h2>Layouts of our project:</h2>
-   <ul>
-      <h3>Splash Screeen:</h3>
-      <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/SplashScreen.png" />
-      <p>
-          This is the welcome page to our application. The splash screen will be the launch page of our application. This screen acts as           a loading page before launching the application. 
-      </p>
-  </ul>
- <ul>
+<ul>
+  <h3>Splash Screeen:</h3>
+  <p>
+    This is the welcome page to our application. The splash screen will be the launch page of our application. This screen acts as a loading page before launching the application. 
+  </p>
+  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/SplashScreen.png" />
+</ul>
+
+<ul>
    <h3>Login Screen:</h3>
   <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/LoginScreen.png" />
   <p>
-The login page will be used for the app in which the user will enter their credentials like username and password of if they are new user they have button called register, by clicking it they will redirect to registration page where the details of the user/students are entered. 
+    The login page will be used for the app in which the user will enter their credentials like username and password of if they are new user they have button called register, by clicking it they will redirect to registration page where the details of the user/students are entered. 
   </p>
-  </ul>
+</ul>
   <ul>
    <h3>Registration Screen :</h3>
   <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/RegisterScreen.png" />
