@@ -5,13 +5,17 @@ An android application which is used for searching and renting books from a libr
 <h3>Northwest Library</h3>
 
 <h2>App Logo<h2>
-  <img src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/appLogo.jpeg" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/appLogo.jpeg" width="230" height="200" />
+</p>
   
 <h2>Team Members:</h2>
+<ul>
  <li> Anil Bomma</li>
  <li> Deepthi Tejaswani Chokka</li>
  <li> Rethimareddy Polam</li>
  <li> Mahender Reddy Surkanti</li>
+</ul>
 
 
 <h2> Introduction to our Project:</h2>
@@ -20,21 +24,20 @@ An android application which is used for searching and renting books from a libr
 </p>
   
 <h2>Specifications/Support Version:</h2>
-  <p>
+<p>
     We are using android API version of pixel 3a XL API 28. The size of the layout is 1080*2160 with a density of 400. The complete details of the device we have used in our project is:
     <li>Device Name: Pixel 3a XL API 28</li>
     <li>Android API: 9.0 API 28</li>
     <li>Size: 1080*2160 </li>
-  </p>
+</p>
 
 
 
 <h2>Database:</h2>
-  <p> Firebase </p>
-  <p> 
-    We are using a Persistent database named Firebase Fire Store. By using the fire 
-    Store in our application, we can store the data in cloud and sync it across all the devices when ever required. We are storing information regarding user details, books information and borrowed books details in our database. By using this we structure the data depending on our requirements. We can query and fetch data easily as per requirements. We can also dynamically get the data whenever we require. The database will grow dynamically depending on the information stored. We are also using firebase authentication for validating and logging the user into the application. 
-  </p>
+<p> Firebase </p>
+<p> 
+  We are using a Persistent database named Firebase Fire Store. By using the fire Store in our application, we can store the data in cloud and sync it across all the devices when ever required. We are storing information regarding user details, books information and borrowed books details in our database. By using this we structure the data depending on our requirements. We can query and fetch data easily as per requirements. We can also dynamically get the data whenever we require. The database will grow dynamically depending on the information stored. We are also using firebase authentication for validating and logging the user into the application. 
+</p>
    
    
    
@@ -159,6 +162,7 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
 <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/SplashScreen.png" width="230" height="400"/>
+<br>Fig: 01
 </p>
 
 <h3>List all books:</h3>
@@ -167,6 +171,7 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
 <img src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/listBooks.png" width="230" height="400" />
+<br>Fig: 02
 </p>
 
 <h3>Book description:</h3>
@@ -175,7 +180,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
 <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_BookDescription.png" width="230" height="400"/>
-<p>
+<br>Fig: 03
+</p>
 
 <h3>Basic Navigation bar:</h3>
 <p>
@@ -183,7 +189,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
 <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_BasicNavBar.png" width="230" height="400"/>
-<p>
+<br>Fig: 04
+</p>
 
 <h3>Search Book:</h3>
 <p>
@@ -191,7 +198,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_SearchBook.png" width="230" height="400"/>
-<p>
+  <br>Fig: 05
+</p>
 
 <h3>Help Screen:</h3>
 <p>
@@ -199,7 +207,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_HelpScreen.png" width="230" height="400"/>
-<p>
+  <br>Fig: 06
+</p>
 
 <h3>Contact Us Screen:</h3>
 <p>
@@ -207,7 +216,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_ContactUsScreen.png" width="230" height="400"/>
-<p>
+  <br>Fig: 07
+</p>
 
 <h3>Login Screen:</h3>
   <p>
@@ -215,7 +225,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
   </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_LoginPage.png" width="230" height="400"/>
-<p>
+  <br>Fig: 08
+</p>
 
 <h3>Registration Screen:</h3>
 <p>
@@ -223,7 +234,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_RegisterPage.png" width="230" height="400"/>
-<p>
+  <br>Fig: 09
+</p>
 
 <h3>Verification Gmail:</h3>
 <p>
@@ -231,7 +243,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_gmailVerificationCode.png" width="800" height="500"/>
-<p>
+  <br>Fig: 10
+</p>
 
 <h3>Verification Screen:</h3>
 <p>
@@ -239,7 +252,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_verificationScreen.png" width="230" height="400"/>
-<p>
+  <br>Fig: 11
+</p>
 
 <h3>Registration Successful mail:</h3>
 <p>
@@ -247,7 +261,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_gmailLoginSuccess.png" width="800" height="500"/>
-<p>
+  <br>Fig: 12
+</p>
 
 <h3>Forget password Screen:</h3>
 <p>
@@ -255,7 +270,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_ForgetPasswordScreen.png" width="230" height="400"/>
-<p>
+  <br>Fig: 13
+</p>
 
 <h3>Forget password gmail:</h3>
 <p>
@@ -263,7 +279,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_gmailForgetPasswordCode.png" width="8000" height="500"/>
-<p>
+  <br>Fig: 14
+</p>
 
 <h3>Password mail:</h3>
 <p>
@@ -271,17 +288,18 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_gmailPasswordSent.png" width="800" height="500"/>
-<p>
+  <br>Fig: 15
+</p>
 
-<h4>Once the user logs in their are three kinds of user who are using this application they are
-</h4>
+<h3>Once the user logs in their are three kinds of user who are using this application they are
+</h3>
 <ul>
   <p>1. Student</p>
   <p>2. Department Admin/Librarian</p>
   <p>3. Admin</p>
 </ul>
 
-<h4> Other than the above mentioned screens, the following are the screen that can be accessed by the user with role as <b>Student</b></h4>
+<h3> Other than the above mentioned screens, the following are the screen that can be accessed by the user with role as <b>Student</b></h3>
 
 <h3>Navigation bar for a Student:</h3>
 <p>
@@ -289,7 +307,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_StudentNavBar.png" width="230" height="400"/>
-<p>
+  <br>Fig: 16
+</p>
 
 <h3>Borrow book:</h3>
 <p>
@@ -298,15 +317,17 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 <p>Note: If the selected book is already borrowed by the user the borrow action is declined</p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_BorrowedVerification.png" width="230" height="400"/>
-<p>
+  <br>Fig: 17
+</p>
 
 <h3>Location book:</h3>
 <p>
   This screen appears when a user clicks on show locaion option which is present in description page of a selected book. This screen shows the loation of the book where it is present the huge B.D Owens library.
+  <br>Fig: 18
 </p>
 <!-- <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_.png" width="230" height="400"/>
-<p> -->
+</p> -->
 
 <h3>List of the books borrowed by student:</h3>
 <p>
@@ -314,7 +335,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_ListBorrowedBook.png" width="230" height="400"/>
-<p>
+  <br>Fig: 19
+</p>
 
 <h3>User Profile:</h3>
 <p>
@@ -322,7 +344,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_UserProfileScreen.png" width="230" height="400"/>
-<p>
+  <br>Fig: 20
+</p>
 
 <h3>Change Password Screen:</h3>
 <p>
@@ -330,9 +353,10 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_ChangePasswordScreen.png" width="230" height="400"/>
-<p>
+  <br>Fig: 21
+</p>
 
-<h4> Other than the above mentioned functionality for general student users, the following are the screen that can be accessed by the user with role as <b>Department Admin/Librarian</b></h4>
+<h3> Other than the above mentioned functionality for general student users, the following are the screen that can be accessed by the user with role as <b>Department Admin/Librarian</b></h3>
 
 <h3>Navigation bar for a Department Admin/Librarian:</h3>
 <p>
@@ -340,7 +364,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_DptAdminNavBar.png" width="230" height="400"/>
-<p>
+  <br>Fig: 22
+</p>
 
 <h3>Adding books to the database:</h3>
 <p>
@@ -348,7 +373,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AddBook.png" width="230" height="400"/>
-<p>
+  <br>Fig: 23
+</p>
 
 <h3>Adding books to the database:</h3>
 <p>
@@ -356,7 +382,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AddBook.png" width="230" height="400"/>
-<p>
+  <br>Fig: 24
+</p>
 
 <h3>List of the books borrowed by students:</h3>
 <p>
@@ -364,9 +391,10 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_BorrowedBooksList.png" width="230" height="400"/>
-<p>
+  <br>Fig: 25
+</p>
 
-<h4> Other than the above mentioned functionality for general student users and Department admin/Librarian, the following are the screen that can be accessed by the user with role as <b>Admin</b></h4>
+<h3> Other than the above mentioned functionality for general student users and Department admin/Librarian, the following are the screen that can be accessed by the user with role as <b>Admin</b></h3>
 
 <h3>Navigation bar for a Admin:</h3>
 <p>
@@ -374,7 +402,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AdminNavBar.png" width="230" height="400"/>
-<p>
+  <br>Fig: 26
+</p>
 
 <h3>Find a Student</h3>
 <p>
@@ -382,7 +411,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AddDprAdmin.png" width="230" height="400"/>
-<p>
+  <br>Fig: 27
+</p>
 
 <h3>Add a person as Department Admin/Librarian:</h3>
 <p>
@@ -390,15 +420,17 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AddedDptAdmin.png" width="230" height="400"/>
-<p>
+  <br>Fig: 28
+</p>
 
-<h3>User Profile Screen of Department Admin/Librarian after updating the role:</h3>
+<h3>User Profile of a person after updating the role to Department Admin/Librarian:</h3>
 <p>
   Once a student's role is updated to Department Admin/Librarian this will be reflected in the user profile screen of that person. Before the role was <b>student</b> which is appearing in fig: now the role is updated to department admin as shown below.
 </p>
 <p align="center">
-  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AddedDptAdmin.png" width="230" height="400"/>
-<p>
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_DptUserProfile.png" width="230" height="400"/>
+  <br>Fig: 29
+</p>
 
 <h3>List all Department Admins/Librarians:</h3>
 <p>
@@ -406,7 +438,8 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_DptAdminList.png" width="230" height="400"/>
-<p>
+  <br>Fig: 30
+</p>
 
 <h3>Remove a Department Admins/Librarians role and make them a student:</h3>
 <p>
@@ -414,7 +447,10 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 </p>
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_deleteDptAdminAlertBox.png" width="230" height="400"/>
+  <br>Fig: 31
+</p>
 <p>
-
+  If the <b>REMOVE</b> is selected then thst person is removed from the list immediately.
+</p>
 
  
