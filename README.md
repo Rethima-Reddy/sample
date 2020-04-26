@@ -5,7 +5,7 @@ An android application which is used for searching and renting books from a libr
 <h3>Northwest Library</h3>
 
 <h2>App Logo<h2>
-  <img src="https://github.com/Rethima-Reddy/sample/blob/master/Images/appLogo.jpeg" />
+  <img src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/appLogo.jpeg" />
   
 <h2>Team Members:</h2>
  <li> Anil Bomma</li>
