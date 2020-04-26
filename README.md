@@ -1,5 +1,5 @@
-# BearCat's Library 
-Developing a library application which is used for searching and renting books using mobile application.
+# Northwest Library 
+An android application which is used for searching and renting books from a library using android mobile.
 
 <h1>App Name:Northwest Library</h1>
 <h2>App Logo<h2>
@@ -47,7 +47,6 @@ Developing a library application which is used for searching and renting books u
   <h2>Requirements:</h2>
   <p>
     <li>Mobile with the Android operating System.  </li>
-    <li>We need the above API properties to run the app and to have good user interface.  </li>
     <li>Minimum 1 GB RAM.  </li>
     <li>Minimum 8 GB internal storage  </li>
     <li>To run this app we need internet.  </li>
