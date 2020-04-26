@@ -169,6 +169,14 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 <img src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/listBooks.png" width="230" height="400" />
 </p>
 
+<h3>Book description:</h3>
+<p>
+  In this page the detailed description of a particular book clicked or selected from the list will be displayed as shown below. If the user clicks on borrow book button and if the user is not logged in, the application will be redirected to login activity. Otherwise corresponding screen is shown in fig:
+</p>
+<p align="center">
+<img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_BookDescription.png" width="230" height="400"/>
+<p>
+
 <h3>Basic Navigation bar:</h3>
 <p>
   This is the navigation bar to any user who didn't log in. Shown are the list of functionalities a user can do before logging into the application.
@@ -177,99 +185,228 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_BasicNavBar.png" width="230" height="400"/>
 <p>
 
+<h3>Search Book:</h3>
+<p>
+  In this screen, if we write any thing in the edit text and click on search all the books related to given description will be displayed below the button as shown.By clicking any of the book from the list a screen with detailed description of that book is shown.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_SearchBook.png" width="230" height="400"/>
+<p>
 
+<h3>Help Screen:</h3>
+<p>
+  In this screen, any basic information required are shown.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_HelpScreen.png" width="230" height="400"/>
+<p>
 
+<h3>Contact Us Screen:</h3>
+<p>
+  In this screen, contact information of developers are provided to getting in touch with them. By clicking on any developers contact block the app will redirect to the local callin application in that mobile.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_ContactUsScreen.png" width="230" height="400"/>
+<p>
 
+<h3>Login Screen:</h3>
+  <p>
+    The login page will be used for the app in which the user will enter their credentials like username and password. If they are new user they have link called register, by clicking it they will redirect to registration page where the details of the user/students are entered. If the user forgets their password the corresponding link to this are also provided as shown below.
+  </p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_LoginPage.png" width="230" height="400"/>
+<p>
 
+<h3>Registration Screen:</h3>
+<p>
+  If the student/user is new to the application they need to register themselves into this by giving the basic details for them like name, #919 number and contact details. We have also add form validations for the inputs given.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_RegisterPage.png" width="230" height="400"/>
+<p>
 
+<h3>Verification Gmail:</h3>
+<p>
+  This an example of the mail sent to a user of verification code to register them. 
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_gmailVerificationCode.png" width="800" height="500"/>
+<p>
+
+<h3>Verification Screen:</h3>
+<p>
+  In this screen, the verification code sent in the mail is entered.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_verificationScreen.png" width="230" height="400"/>
+<p>
+
+<h3>Registration Successful mail:</h3>
+<p>
+  This an example of the mail sent to a user stating the successful registration of the user.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_gmailLoginSuccess.png" width="800" height="500"/>
+<p>
+
+<h3>Forget password Screen:</h3>
+<p>
+  When the user clicks on forget password link in login screen they will be directed to this screen. In this screen, the user will enter the mail id which they have provided during registration and clicks on get verification code as shown below.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_ForgetPasswordScreen.png" width="230" height="400"/>
+<p>
+
+<h3>Forget password gmail:</h3>
+<p>
+  Once the clicks on get verification code button in the above screen, if the mail Id entered matches mail ID's in database a verification code is sent to that mail ID to verify wheather the right person access the applictaion. The mail appears as follows. 
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_gmailForgetPasswordCode.png" width="8000" height="500"/>
+<p>
+
+<h3>Password mail:</h3>
+<p>
+  Once the verification code entered matches the code sent, a mail with old password is sent to the mail so that the user can know the  password and login to their profile. 
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_gmailPasswordSent.png" width="800" height="500"/>
+<p>
+
+<h4>Once the user logs in their are three kinds of user who are using this application they are
+</h4>
 <ul>
-   <h3>Login Screen:</h3>
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/LoginScreen.png" />
-  <p>
-    The login page will be used for the app in which the user will enter their credentials like username and password of if they are new user they have button called register, by clicking it they will redirect to registration page where the details of the user/students are entered. 
-  </p>
+  <p>1. Student</p>
+  <p>2. Department Admin/Librarian</p>
+  <p>3. Admin</p>
 </ul>
-  <ul>
-   <h3>Registration Screen :</h3>
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/RegisterScreen.png" />
-  <p>
-If the student/user is new to the application they need to register themselves into this by giving the basic details for them like name, #919 number and contact details. We will also add form validations for the inputs given.
-  </p>
-  </ul>
-  <ul>
-   <h3>Home Screen:</h3>
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/ListAllBooks.png" />
-  <p>
-The user will enter into home page of the application. This screen will display the list of books available in our library app. By clicking upon that particular book, you will be re-directed to "About the Book" Screen.  
-  </p>
-  </ul>
-    <ul>
-   <h3>About the Book Screen:</h3>
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/AboutTheBook.png" />
-  <p>
-This screen is useful to know the in-depth information of that particular book. If the user is interested in borrowing the book, the user can click upon the BORROW BOOK Button. The borrow book button allocates the user to borrow a book as and when required. 
-  </p>
-  </ul>
-   <ul>
-   <h3>Navigation Screen:</h3>
-  <p>
-    The functionalities present in this app can be displayed in the navigation screen as displayed below. This navigation screen will be a basic screen which is displayed to the user of the book app.
-  </p>
-  
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/InitialFragment.PNG" />
-  
-   <p>
-The screen displayed below is the navigation screen which is to be available for the department admin. We are making sure that all of the functionalities which are available are available to only certain people.
-  </p>
-  
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/LoginAsAdmin.PNG" />
- 
-  </ul>
-  <ul>
-   <h3>Book Search Screen : </h3>
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/SplashScreen.png" />
-  <p>
-This screen will show up search option will be displayed on top of screen and the sections under it. Once the book needed is selected the section and the row in which the book is present is highlighted. 
-  </p>
-  </ul>
-  <ul>
-   <h3>Profile Screen:</h3>
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/UserProfile.PNG" />
-  <p>
-This page will show the details of the user/student which they have entered at the time of registration.
-  </p>
-  </ul>
-  <ul>
-   <h3>Adding Books Screen:</h3>
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/AddingABook.PNG" />
-  <p>
-This privilege is only given to admins. Every time a new book imported, the book details are entered by the admin. This page will contain all the edit text to add details of the book. The details will be stored in database.
-  </p>
-  </ul>
-  
-   <ul>
-   <h3>Change Password Screen:</h3>
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/ChangePassword.PNG" />
-  <p>
-    If the person who has logged in desires to change the password, then the concerned person can do so in this page.
-  </p>
-  </ul>
-  
-   <ul>
-   <h3>Contact-Us Screen:</h3>
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/ContactUsScreen.png" />
-  <p>
-   The contact-us screen is used to display the details to contack in case of occurence of any queries. They can reach out to a person by through email or by calling the concerned person. An individual can re-direct to the concerned option required by clicking upon the displayed buttons. 
-  </p>
-  <img src="https://raw.githubusercontent.com/anil-bomma/android-library-app/master/Images/ContactUsRedirectScreen.PNG" />
-  
-  </ul>
-  
-<!-- css -->
-<style>
-.aligncenter {
-    text-align: center;
-    }
-</style>
+
+<h4> Other than the above mentioned screens, the following are the screen that can be accessed by the user with role as <b>Student</b></h4>
+
+<h3>Navigation bar for a Student:</h3>
+<p>
+  The following is the navigation bar for a student showing all the functionalities they can do using this application.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_StudentNavBar.png" width="230" height="400"/>
+<p>
+
+<h3>Borrow book:</h3>
+<p>
+  This screen appears when a user clicks on borrow option which is present in description page of a selected book. This screen shows the borrow date and estimated retured date if the borrow is done. If the borrow is made successful, that book will be stored in database with corresponding user Id and book Name. 
+</p>
+<p>Note: If the selected book is already borrowed by the user the borrow action is declined</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_BorrowedVerification.png" width="230" height="400"/>
+<p>
+
+<h3>Location book:</h3>
+<p>
+  This screen appears when a user clicks on show locaion option which is present in description page of a selected book. This screen shows the loation of the book where it is present the huge B.D Owens library.
+</p>
+<!-- <p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_.png" width="230" height="400"/>
+<p> -->
+
+<h3>List of the books borrowed by student:</h3>
+<p>
+  This screen lists all the books the logged student have borrowed from the library along with its due date to return as shown below.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_ListBorrowedBook.png" width="230" height="400"/>
+<p>
+
+<h3>User Profile:</h3>
+<p>
+  Apart from the main functionality, the user can also view their profile details they entered during registration as shown below.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_UserProfileScreen.png" width="230" height="400"/>
+<p>
+
+<h3>Change Password Screen:</h3>
+<p>
+  In this screen, the user can also change the password from which they have entered during registration if they feel to. In this screen the user enters the old password and new password into respective entry fields. If the entered old password and the password coresponding the user matches only then the newly entered password will be updated otherwise an error message is sent to user stating that the old password entered is wrong.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_ChangePasswordScreen.png" width="230" height="400"/>
+<p>
+
+<h4> Other than the above mentioned functionality for general student users, the following are the screen that can be accessed by the user with role as <b>Department Admin/Librarian</b></h4>
+
+<h3>Navigation bar for a Department Admin/Librarian:</h3>
+<p>
+  The following is the navigation bar for a Department Admin/Librarian showing all the functionalities they can do using this application.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_DptAdminNavBar.png" width="230" height="400"/>
+<p>
+
+<h3>Adding books to the database:</h3>
+<p>
+  If the library management bought new books, the department admin can add them to the database by entering the details of books in this screen.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AddBook.png" width="230" height="400"/>
+<p>
+
+<h3>Adding books to the database:</h3>
+<p>
+  If the library management bought new books, the department admin can add them to the database by entering the details of books in this screen.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AddBook.png" width="230" height="400"/>
+<p>
+
+<h3>List of the books borrowed by students:</h3>
+<p>
+  This screen is different from that which appears to a student. In this screen, all the books which are borrowed by different students are listed along with their student ID of the person taken and the due date to return as shown below.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_BorrowedBooksList.png" width="230" height="400"/>
+<p>
+
+<h4> Other than the above mentioned functionality for general student users and Department admin/Librarian, the following are the screen that can be accessed by the user with role as <b>Admin</b></h4>
+
+<h3>Navigation bar for a Admin:</h3>
+<p>
+  The following is the navigation bar for a Admin showing all the functionalities they can do using this application.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AdminNavBar.png" width="230" height="400"/>
+<p>
+
+<h3>Find a Student</h3>
+<p>
+  In this screen, if the admin wants a student to be employeed as department admin/Librarian, they can find the person by entering their #919 number and find the person as shown below.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AddDprAdmin.png" width="230" height="400"/>
+<p>
+
+<h3>Add a person as Department Admin/Librarian:</h3>
+<p>
+  In this screen, the details of student with matching #919 is shown as below. And if requied, the admin can update the selected student to promote as department admin/Librarian then and their itself by clicking on add button.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_AddedDptAdmin.png" width="230" height="400"/>
+<p>
+
+<h3>List all Department Admins/Librarians:</h3>
+<p>
+  We can see the list of the Department Admins/Librarians who are employeed at present in this screen as shown below.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_DptAdminList.png" width="230" height="400"/>
+<p>
+
+<h3>Remove a Department Admins/Librarians role and make them a student:</h3>
+<p>
+  From the above screen, we can see a remove button corresponding to each person in the list. If we click on any of the persons remove button, an alert box appears and ask for the conformation of the remove action to be performed as shown below.
+</p>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Rethima-Reddy/sample/master/Images/new_DptAdminList.png" width="230" height="400"/>
+<p>
+
 
  
