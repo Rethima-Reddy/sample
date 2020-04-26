@@ -1,8 +1,11 @@
 # Northwest Library 
 An android application which is used for searching and renting books from a library using android mobile.
 
-<h1>App Name:Northwest Library</h1>
+<h2>App Name:</h2>
+<h3>Northwest Library</h3>
+
 <h2>App Logo<h2>
+  <img src="https://github.com/Rethima-Reddy/sample/blob/master/Images/appLogo.jpeg" />
   
 <h2>Team Members:</h2>
  <li> Anil Bomma</li>
