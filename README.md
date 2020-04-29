@@ -293,11 +293,13 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
 
 <h3>Once the user logs in their are three kinds of user who are using this application they are
 </h3>
+<b>
 <ul>
   <p>1. Student</p>
   <p>2. Department Admin/Librarian</p>
   <p>3. Admin</p>
 </ul>
+</b>
 
 <h3> Other than the above mentioned screens, the following are the screen that can be accessed by the user with role as <b>Student</b></h3>
 
@@ -453,4 +455,7 @@ https://github.com/anil-bomma/android-library-app/blob/master/LibraryApk.apk
   If the <b>REMOVE</b> is selected then thst person is removed from the list immediately.
 </p>
 
- 
+<h2>Contributors for our project:</h2> 
+<p>
+ https://github.com/anil-bomma/android-library-app/graphs/contributors
+</p>
